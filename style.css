@@ -1,0 +1,60 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  background: #e8f4f8;
+  margin-top: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.title {
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin:0;
+  font-family: 'Shrikhand', cursive;
+  color: blue;
+    -webkit-text-stroke: 1px white;
+  padding-bottom: 2vw;
+}
+h1{
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin:0;
+  font-family: 'Fira Sans', sans-serif;
+  color: blue;
+}
+
+p{
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+}
+
+.art-container {
+  padding: 1rem;
+  border: 1px solid blue;
+  border-radius: 25px;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.art-container:hover {
+  cursor: pointer;
+}
+
+.art-image {
+  width: 100%;
+  height: auto;
+  display:none;
+}
+
+.art-image.active {
+  display: block;
+}
+
+.art-description {
+  display: none;
+}
+
+.art-description.active {
+  display: block;
+}
